@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+:root {
+  --primary-color: #605dc8;
+  --secondary-color: #8b89e6;
+  --accent-color: #e8e7fa;
+  --shadow-color: #e8e8e8;
+}
+
+button.primary {
+  padding: 10px;
+  border: solid 1px var(--primary-color);
+  background: var(--primary-color);
+  color: white;
+  border-radius: 8px;
+}
+.searchbar {
+  border-radius: 20px;
+  border-color: solid grey;
+  width: 70%;
+  align-items: center;
+  margin: 20px;
+  padding: 6px;
+  height: 30px;
+  font-size: 15pxpx;
+  font-family: 'Be Vietnam Pro';
+  /* font-style: italic; */
+}
+hr {
+  border: 0;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/

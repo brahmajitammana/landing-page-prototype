@@ -1,0 +1,55 @@
+.brand-logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+}
+header {
+  background-color: rgb(168, 192, 214);
+  background-image: linear-gradient(45deg, #b4d4db, #0a91af);
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.profile-actions {
+  display: flex;
+  /* margin-top: 10px; */
+}
+.action-logo {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+.info-logo {
+  height: 40px;
+  width: 40px;
+  /* border: 5px solid grey; */
+  border-radius: 50%;
+  background-color: rgba(225, 187, 228, 0.458);
+}
+ul {
+  list-style: none;
+}
+.maxw2h {
+  /* width: 100%; */
+  max-width: 1000px;
+}
+li {
+  margin-right: 3px;
+}
+.m20px {
+  margin-right: 12px;
+}
+.flex-row {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+}
+.searchbackground {
+  background-color: aliceblue;
+}
