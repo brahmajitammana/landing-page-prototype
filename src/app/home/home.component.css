@@ -1,0 +1,53 @@
+.feed-layout{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5px;
+}
+.feed-content{
+    display: flex;
+    flex-direction: column;
+}
+.feed-card{
+    border: 2px solid grey;
+    border-radius: 15px;
+    background-color: rgb(239, 235, 235);
+    margin: 10px;
+}
+.feed-card-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.feed-card-body{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+.feed-card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    padding: 20px;
+}
+.post-author{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.post-author-details{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.post-body{
+    height: 100%;
+}
+.author-name{
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+.more{
+
+}
